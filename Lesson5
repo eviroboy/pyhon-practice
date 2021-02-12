@@ -7,8 +7,15 @@ def print_info(func):
     return wrapper
 
 @print_info
-def add_num(a,b):
+def add_num(a, b):
     return a + b
 
-r = print_info(add_num)
+r = add_num(10,20)
+print(r)
+
+@print_info
+def sub_num(a, b):
+    return a - b
+
+r = sub_num(10,20)
 print(r)
