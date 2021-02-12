@@ -7,3 +7,5 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     return True
 
 print(example_func.__doc__)
+
+#関数定義のコメント方法
